@@ -7,7 +7,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'capistrano3-puma'
+gem 'capistrano3-puma', github: "seuros/capistrano-puma"
 group :development, :test do
   gem 'byebug'
 end
